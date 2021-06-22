@@ -56,7 +56,7 @@ section {
   color: #516195;
 }
 
-@media (max-width: 768px) {
+@media(max-width: 768px) {
   .section-header p {
     font-size: 28px;
     line-height: 32px;
@@ -74,7 +74,7 @@ section {
   color: #fff;
 }
 
-@media (max-width: 992px) {
+@media(max-width: 992px) {
   .breadcrumbs {
     margin-top: 57px;
   }
@@ -127,7 +127,7 @@ section {
   background: #516195;
   width: 40px;
   height: 40px;
-  border-radius: 4px;
+  border-radius: 25px;
   transition: all 0.4s;
 }
 
@@ -238,7 +238,7 @@ section {
   background: #516195;
   padding: 8px 20px;
   margin-left: 30px;
-  border-radius: 4px;
+  border-radius: 25px;
   color: #fff;
 }
 
@@ -439,7 +439,7 @@ section {
   margin-top: 30px;
   line-height: 0;
   padding: 15px 40px;
-  border-radius: 4px;
+  border-radius: 25px;
   transition: 0.5s;
   color: #fff;
   background: #516195;
@@ -449,7 +449,7 @@ section {
   margin-top: 30px;
   line-height: 0;
   padding: 15px 40px;
-  border-radius: 4px;
+  border-radius: 25px;
   transition: 0.5s;
   color: #fff;
   background: #26366d;
@@ -521,6 +521,15 @@ section {
   .hero .hero-img img {
     width: 100%;
   }
+  #hero .img-fluid {
+    max-width: 80%;
+    margin-left: 0rem;
+    height: auto;
+  }
+  .img-fluid {
+    max-width: 68%;
+    height: auto;
+}
 }
 
 /*--------------------------------------------------------------
@@ -555,7 +564,7 @@ section {
 .about .btn-read-more {
   line-height: 0;
   padding: 15px 40px;
-  border-radius: 4px;
+  border-radius: 25px;
   transition: 0.5s;
   color: #fff;
   background: #516195;
@@ -564,7 +573,7 @@ section {
 .about .btn-read-more:hover {
   line-height: 0;
   padding: 15px 40px;
-  border-radius: 4px;
+  border-radius: 25px;
   transition: 0.5s;
   color: #fff;
   background: #26366d;
