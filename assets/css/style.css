@@ -544,6 +544,8 @@ section {
   transform: translateY(-8px);
 }
 
+
+
 .hero .btn-get-started span {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
@@ -1703,6 +1705,32 @@ figure {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
+.portfolio .btn-get-started {
+  border: 0;
+  margin-top: 30px;
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 25px;
+  transition: 0.5s;
+  color: #fff;
+  background: #516195;
+  box-shadow: 0px 5px 30px rgba(54, 68, 197, 0.4)
+}
+
+.portfolio .btn-get-started:hover {
+  margin-top: 30px;
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 25px;
+  transition: 0.5s;
+  color: #fff;
+  background: #26366d;
+  box-shadow: 0px 5px 30px rgba(54, 68, 197, 0.4);
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
 
 /*--------------------------------------------------------------
 # Testimonials
