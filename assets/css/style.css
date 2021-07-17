@@ -946,7 +946,7 @@ img#freepik_stories-programmer.animated #freepik--Character--inject-54 {
   }
 
   .hero h1 {
-    font-size: 30px;
+    font-size: 35px;
     margin-top: -9rem;
     padding: 0rem;
     letter-spacing: 4px;
@@ -983,7 +983,7 @@ img#freepik_stories-programmer.animated #freepik--Character--inject-54 {
   }
   #particles-js {
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: 90%;
     background-image: url("");
     background-repeat: no-repeat;
